@@ -1,0 +1,60 @@
+
+/* ----------------------------------------------------------------
+
+	slider.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Slider
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for all sliders. Thanks!
+-----------------------------------------------------------------*/
+.arrow {
+	display: flex;
+	margin-bottom: 2.5rem;
+
+	.prev-arrow,
+	.next-arrow {
+		color: #111111;
+		font-size: 1.6rem;
+		font-weight: 700;
+		padding-left: 2rem;
+
+		&.active {
+			color: $theme-color;
+		}
+	}
+}
+
+#bestproduct {
+	
+	div.slider-arrow {
+		position: absolute;
+		top: 30%;
+		transform: translateY(-50%);
+		color: #111111;
+		line-height: 36px;
+		font-size: 2.6rem;
+		cursor: pointer;
+		z-index: 10;
+		width: fit-content;
+
+	}
+
+	.product {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	div.slider-prev {
+		left: -2rem;
+	}
+	div.slider-next {
+		right: -2rem;
+	}
+}

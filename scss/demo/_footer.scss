@@ -1,0 +1,163 @@
+
+/* ----------------------------------------------------------------
+
+	footer.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for footer. Thanks!
+-----------------------------------------------------------------*/
+
+#footer {
+	background-color: #292929;
+	line-height: 1;
+
+	#footer-top {
+		padding-top: 3rem;
+
+		.feedback-title {
+			font-size: $h5-font-size;
+			color: white;
+			font-weight: 700;
+			margin-bottom: 1rem;
+			line-height: 1.25;
+		}
+
+		.input-group {
+			@include media-breakpoint-down(sm) {
+				flex-wrap: wrap;
+			}		
+		}
+
+		input {
+			@include media-breakpoint-down(sm) {
+				width: 100%;
+			}
+		}
+
+		.btn {
+			font-size: 1.25rem;
+			font-weight: 400;
+			padding: 2.875rem;
+		}
+
+	}
+	#footer-main {
+		padding-top: 4.3rem;
+		position: relative;
+
+		h3 {
+			color: white;
+		}
+
+		p {
+			color: #8c8c8c;
+		}
+		
+		hr {
+			background-color: $theme-color;
+			margin-top: 3rem;
+			opacity: 1;
+			margin-bottom: 0;
+		}
+	}
+
+	#footer-bottom {
+		padding-bottom: 3.25rem;
+		padding-top: 3rem;
+
+		@include media-breakpoint-up(xl) {
+			padding-top: 1rem;
+		}
+	}
+
+	.copyright {
+		color: #999898;
+		font-size: 0.75rem;
+		font-weight: 300;
+		line-height: 1;
+	}
+
+	#search-addon {
+		align-self: center;
+    color: #000;
+    position: absolute;
+    right: 1rem;
+		z-index: 100;
+	}
+
+}
+
+#footer-links {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+	.nav-item {			
+		@include media-breakpoint-up(xl) {
+			padding-right: $spacer * 1.875;		
+		}
+	}
+
+	a.nav-link {
+		color: white;
+		display: block;
+		font-size: 1rem;	
+		
+		@include media-breakpoint-up(xl) {
+			padding: 0;		
+		}
+	}
+
+	.dropdown-toggle {
+		&::after {
+			margin-left: $spacer * 0.75;
+		}
+	}
+
+	.dropdown-menu {
+		background: $white;
+		border: 0;
+		top: 1.875rem;
+		left: 0;
+		width: 100%;		
+		margin: 0;
+		border-top: 3px solid $link-hover-color;
+
+		@include border-radius(0);
+
+		@include box-shadow(0 0 5px -1px rgba($black, 0.2));
+
+		@include media-breakpoint-up(xl) {
+			width: 8.75rem;
+		}
+
+		a.dropdown-item {
+			color: $heading-color;
+			height: 2.25rem;
+			line-height: 2.25rem;
+			font-size: 0.75rem;				
+			padding: 0 $spacer * 0.75;
+
+			&:hover {
+				color: $theme-color;
+			}
+		}
+
+	
+	}
+
+	img {
+		display: inline-block;
+		position: relative;
+		top: -2px;
+		width: 1rem;
+		height: 1rem;
+		margin-right: $spacer * 0.5;
+	}
+}
