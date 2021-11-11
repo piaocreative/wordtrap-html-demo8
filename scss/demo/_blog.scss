@@ -34,7 +34,7 @@
 	}
 }
 
-.post-details {
+.post-content {
 	padding: 1.5rem 2.5rem;
 	height: 100%;
 	background: white;
@@ -85,22 +85,12 @@
 	&::before {
 		content: '';
 		width: calc( 100% - 90px );
-    display: inline-block;
-    height: 1px;
-    background: $theme-color;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+		display: inline-block;
+		height: 1px;
+		background: $theme-color;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
 	}
-}
-
-.post-btn {
-	display: block;
-	background-color: white;
-	border: 1px solid #111111;
-	padding: 0.875rem 4.5rem;
-	color: #111111;
-	font-weight: 400;
-	font-size: 1.875rem;
 }

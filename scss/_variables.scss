@@ -15,7 +15,6 @@
 $theme-color:                   #ca752d;
 $body-color:                    #040301;
 $heading-color:                 #040301;
-$third-color:                   #8c8c8c;
 $light:                         #4c4c4c;
 
 
@@ -32,16 +31,6 @@ $heading-font:                  'Open Sans', sans-serif;
 $primary:                       $theme-color;
 $secondary:                     $heading-color;
 
-// Spacer
-$spacer: 1rem !default;
-$spacers: (
-  0: 0,
-  1: $spacer / 4,
-  2: $spacer / 2,
-  3: $spacer,
-  4: $spacer * 1.25,
-  5: $spacer * 2,
-) !default;
 
 // Link
 $link-color:                    $heading-color;
@@ -76,6 +65,7 @@ $btn-padding-x-lg:              2.5rem;
 $btn-font-size-lg:              0.875rem;
 
 $btn-line-height:               1;
+$btn-border-radius:             0; 
 
 
 // Forms

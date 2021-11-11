@@ -21,14 +21,6 @@
 	#footer-top {
 		padding-top: 3rem;
 
-		.feedback-title {
-			font-size: $h5-font-size;
-			color: white;
-			font-weight: 700;
-			margin-bottom: 1rem;
-			line-height: 1.25;
-		}
-
 		.input-group {
 			@include media-breakpoint-down(sm) {
 				flex-wrap: wrap;

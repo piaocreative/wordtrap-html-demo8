@@ -17,7 +17,6 @@
 
 
 .widget {
-
 	.widget-title {
 		font-size: 1rem;
 		font-family: $heading-font;
@@ -76,10 +75,13 @@
 
 				a {
 					color: white;
-					font-weight: 400;
 					font-size: $h6-font-size;
 					transition: all 0.3s ease-in-out;
 					text-transform: uppercase;
+
+					&:hover {
+						color: $theme-color;
+					}
 				}
 			}
 		}
@@ -103,13 +105,12 @@
 
 	&.widget-menu {
 		margin-bottom: 2rem;
+		
 		ul {
 			li {
 				margin-bottom: 1rem;
 
 				a {
-					font-weight: 400;
-					font-size: 1rem;
 					color: white;
 					text-transform: uppercase;
 					line-height: 1;

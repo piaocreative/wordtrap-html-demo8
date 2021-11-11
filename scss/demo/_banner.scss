@@ -33,18 +33,12 @@
     
     &.about-banner {
         background-image: url(../images/about-banner.png);
-        height: 20rem;
-        padding-top: $spacer * 4.625;
-        padding-bottom: $spacer * 7.125;
+        padding-top: 7.625rem;
+        padding-bottom: 5.375rem;
     }
 
     .banner-wrap {
         padding-top: 3.875rem;
         padding-bottom: 2.9rem;
-    }
-
-    h2 {
-        color: $theme-color;
-        font-style: italic;
     }
 }

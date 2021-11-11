@@ -1,0 +1,88 @@
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 15px 0;
+  
+  
+      &::after {
+          content: '';
+          position: absolute;
+          width: 2px;
+          background: $theme-color;
+          top: 0;
+          bottom: 0;
+          left: 50%;
+          margin-left: -1px;
+      }
+  
+      .content {
+          padding: 1rem 0;
+          position: relative;
+          width: 50%;
+  
+          
+          .details {
+              font-size: $h4-font-size;
+              font-weight: 300;
+              line-height: 1.25;
+              color: #4c4c4c;
+              margin-bottom: 0;
+          }
+  
+  
+          &.left {
+              left: 0;
+          }
+  
+          &.right {
+              left: 50%;
+  
+              &::after {
+                  left: -8px;
+              }
+          }
+  
+          &::after {
+              content: '';
+              position: absolute;
+              width: 16px;
+              height: 16px;
+              top: calc(50% - 8px);
+              right: -8px;
+              background: $theme-color;
+              border: 2px solid $theme-color;
+              border-radius: 16px;
+              z-index: 1;
+          }
+  
+          .date {
+              color: $theme-color;
+              font-weight: 800;
+              font-size: 3.75rem;
+              position: absolute;
+              display: inline-block;
+              top: calc(50% - 4rem);
+              text-align: center;
+              z-index: 1;
+          }
+  
+          &.left .date {
+              right: -11.75rem;
+          }
+          
+          &.right .date {
+              left: -11.75rem;
+          }
+          
+          & .details {
+              position: relative;
+              padding: 1rem 3rem;
+          }
+          
+          &.right .details {
+              padding: 1rem 3rem;
+          }
+      }
+  }

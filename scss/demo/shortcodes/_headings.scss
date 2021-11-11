@@ -18,7 +18,6 @@
 
 	.title {		
 		display: block;
-		font-family: $heading-font;
 		font-size: $h2-font-size;
 		font-weight: 700;
 		line-height: 1;
@@ -28,10 +27,10 @@
 		position: relative;
 		text-align: center;
 		text-transform: uppercase;
-    width: fit-content;
-    background-color: #fff;
-    display: block;
-    line-height: 1;
-    margin: -2rem auto 0 auto;
+		width: fit-content;
+		background-color: #fff;
+		display: block;
+		line-height: 1;
+		margin: -2rem auto 0 auto;
 	}
 }
