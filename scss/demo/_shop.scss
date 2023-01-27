@@ -59,7 +59,7 @@
 		color: $theme-color;
 		// width: 50%;
 		text-transform: uppercase;
-		border: 2px solid $heading-color;
+		border: 2px solid $headings-color;
 		padding: 0.875rem 3rem;
 		font-weight: 400;
 		font-size: 1.25rem;
@@ -117,7 +117,7 @@
 	}
 
 	.product-category {
-		color: $heading-color;	
+		color: $headings-color;	
 		font-family: $heading-font;
 		font-size: $h6-font-size;
 		font-weight: 300;
@@ -127,7 +127,7 @@
 	}
 
 	.product-price {
-		color: $heading-color;
+		color: $headings-color;
 		font-family: $heading-font;
 		font-size: 1.875rem;
 		font-weight: 500;
@@ -145,13 +145,13 @@
 
 		span {
 			font-size: $h5-font-size;
-			color: $heading-color;
+			color: $headings-color;
 			font-weight: 500;
 		}
 	}
 
 	.product-info {
-		color: $heading-color;
+		color: $headings-color;
 		font-size: $h4-font-size;
 		font-weight: 400;
 		margin-bottom: 1rem;
@@ -161,7 +161,7 @@
 
 	.addcart {
 		background-color: white;
-		border: 1px solid $heading-color;
+		border: 1px solid $headings-color;
 		font-size: $h6-font-size;
 		font-weight: 400;
 		padding: 0.5rem 2rem;
@@ -175,18 +175,18 @@
 		line-height: 1;
 		
 		i {
-			color: $heading-color;
+			color: $headings-color;
 			font-size: 1.25rem;
 		}
 
 		.empty {
-			color: $heading-color;
+			color: $headings-color;
 		}
 	}
 
 	.add-to-wishlist {
 		font-size: 2rem;
-		color: $heading-color;
+		color: $headings-color;
 		line-height: 1;
 	}
 }

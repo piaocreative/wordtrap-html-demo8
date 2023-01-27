@@ -71,7 +71,7 @@
 	a {
 		position: relative;
 		display: block;
-		color: $heading-color;
+		color: $headings-color;
 		font-family: $body-font;
 		text-transform: uppercase;
 		font-size: 0.75rem;
@@ -79,7 +79,7 @@
 		line-height: 1;
 		padding-left: 1rem;
 		text-align: end;
-		color: $heading-color;
+		color: $headings-color;
 	}
 
 	&::before {

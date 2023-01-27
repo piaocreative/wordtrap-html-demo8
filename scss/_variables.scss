@@ -14,7 +14,7 @@
 
 $theme-color:                   #ca752d;
 $body-color:                    #040301;
-$heading-color:                 #040301;
+$headings-color:                 #040301;
 $light:                         #4c4c4c;
 
 
@@ -29,11 +29,11 @@ $heading-font:                  'Open Sans', sans-serif;
 
 // Theme Colors
 $primary:                       $theme-color;
-$secondary:                     $heading-color;
+$secondary:                     $headings-color;
 
 
 // Link
-$link-color:                    $heading-color;
+$link-color:                    $headings-color;
 $link-decoration:				        none;
 $link-hover-color:				      $theme-color;
 
@@ -69,7 +69,7 @@ $btn-border-radius:             0;
 
 
 // Forms
-$input-color:                   $heading-color;
+$input-color:                   $headings-color;
 $input-border-color:            $theme-color;
 $input-border-width:			      0;
 $input-btn-focus-color-opacity: 1;
